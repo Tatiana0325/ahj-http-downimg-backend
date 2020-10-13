@@ -1,0 +1,34 @@
+{
+  "name": "ahj-http-downimg-backend",
+  "version": "1.0.0",
+  "description": "ahj-http-downimg-backend",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatiana0325/ahj-http-downimg-backend.git"
+  },
+  "author": "Tatiana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatiana0325/ahj-http-downimg-backend/issues"
+  },
+  "homepage": "https://github.com/Tatiana0325/ahj-http-downimg-backend#readme",
+  "dependencies": {
+    "forever": "^3.0.2",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-static": "^5.0.0",
+    "path": "^0.12.7",
+    "uuid": "^8.3.1",
+    "ws": "^7.3.1"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
