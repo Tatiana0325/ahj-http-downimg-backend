@@ -30,5 +30,8 @@
   },
   "engines": {
     "node": "11.x"
+  },
+  "devDependencies": {
+    "koa-router": "^9.4.0"
   }
 }
